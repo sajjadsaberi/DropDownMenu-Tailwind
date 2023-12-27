@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'IranYekanX';
+    src: url('../font/IRANYekanX-Bold.woff2') format('woff2'), /* فرمت‌های دیگر نیز اضافه کنید */
+        url('../font/IRANYekanX-Bold.woff') format('woff');
+    font-style: normal; /* سبک فونت (normal یا italic) */
+    }
+
 .dropdown:hover .dropdown-menu {
-    display: block; 
+    display: block;
+}
+
+.font-custom {
+    font-family: IranYekanX;
 }
